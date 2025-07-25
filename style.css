@@ -1,0 +1,152 @@
+/* ======= Reset some defaults ======= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f4f7fa;
+  color: #333;
+  padding: 40px 20px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+  margin-bottom: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  border-bottom: 3px solid #2980b9;
+  padding-bottom: 6px;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+nav {
+  margin-bottom: 30px;
+  background-color: #2980b9;
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #d1e8ff;
+  text-decoration: underline;
+  outline: none;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 24px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #1c5980;
+  text-decoration: underline;
+  outline: none;
+}
+
+/* Style for lesson links */
+section ul li a {
+  font-size: 1.1rem;
+}
+
+/* Responsive iframe for YouTube videos */
+iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(41, 128, 185, 0.2);
+}
+
+/* Add some spacing between sections */
+section {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Footer style if you add one */
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  iframe {
+    height: 200px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
